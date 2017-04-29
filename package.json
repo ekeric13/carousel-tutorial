@@ -1,0 +1,21 @@
+{
+  "name": "carousel-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash.throttle": "^4.1.1",
+    "normalize.css": "^6.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

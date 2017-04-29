@@ -1,0 +1,19 @@
+.slide {
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  width: 120px;
+  padding: 5px;
+  border-right: 1px solid black;
+  white-space: normal;
+}
+
+.slide:last-child {
+  border-right: none;
+}
+
+@media ( min-width: 1000px ) {
+  .slide {
+    width: 100px;
+  }
+}
